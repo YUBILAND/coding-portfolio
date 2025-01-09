@@ -17,11 +17,11 @@ const BodyTransition = () => {
                     <img src="project-imgs/wordle-img.png" className='w-80 h-full rounded-lg ' alt="" />
 
                     <div className='absolute bottom-0 w-full h-fit bg-gray-300 bg-opacity-70 flex justify-around items-center text-[#41b834] font-semibold text-xl py-4 backdrop-blur'>
-                        <a href='/' className='hover:scale-105 transition-all duration-300 '>
+                        <a href='https://wordle.david-chen.org/' className='hover:scale-105 transition-all duration-300 '>
                             Demo
                         </a>
 
-                        <a href='/' className='hover:scale-105 transition-all duration-300 '>
+                        <a href='https://github.com/YUBILAND/wordle-clone' className='hover:scale-105 transition-all duration-300 '>
                             Code
                         </a>
                     </div>
@@ -40,11 +40,11 @@ const BodyTransition = () => {
                     <img src="project-imgs/apple-img.png" className='w-80 h-full rounded-lg' alt="" />
 
                     <div className='absolute bottom-0 w-full h-fit bg-gray-300 bg-opacity-70 flex justify-around items-center  font-semibold text-xl py-4 backdrop-blur'>
-                        <a href='/' className='hover:scale-105 transition-all duration-300 text-transparent bg-clip-text bg-gradient-to-r from-[#088ef7] via-[#ca58d2] to-[#f55310]'>
+                        <a href='https://apple.david-chen.org/' className='hover:scale-105 transition-all duration-300 text-transparent bg-clip-text bg-gradient-to-r from-[#088ef7] via-[#ca58d2] to-[#f55310]'>
                             Demo
                         </a>
 
-                        <a href='/' className='hover:scale-105 transition-all duration-300 text-transparent bg-clip-text bg-gradient-to-r from-[#088ef7] via-[#ca58d2] to-[#f55310]'>
+                        <a href='https://github.com/YUBILAND/apple-clone' className='hover:scale-105 transition-all duration-300 text-transparent bg-clip-text bg-gradient-to-r from-[#088ef7] via-[#ca58d2] to-[#f55310]'>
                             Code
                         </a>
                     </div>
