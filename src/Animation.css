@@ -1,0 +1,43 @@
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  -webkit-box-reflect: below 2px linear-gradient(transparent, #0005);
+}
+
+.container .box {
+  position: relative;
+  width: 100vw;
+  height: 600px;
+  background: linear-gradient(
+    135deg,
+    #00f376 10%,
+    transparent 10%,
+    transparent 50%,
+    #00f376 50%,
+    #00f376 60%,
+    transparent 60%,
+    transparent 100%
+  );
+  background-size: 80px 80px;
+  /* transform: rotate(calc(1 * 90deg)); */
+  transform: scaleX(calc(var(--flip) * 1));
+  animation: animate 1s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    background-position: 0;
+  }
+  100% {
+    background-position: 80px;
+  }
+}
+
+#reflect {
+  -webkit-box-reflect: below 0px linear-gradient(transparent, #0005);
+}

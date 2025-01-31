@@ -1,0 +1,6 @@
+#neon {
+  color: #fff;
+  box-shadow:
+    -10px 0 100px #f0f,
+    10px 0 100px #0ff;
+}

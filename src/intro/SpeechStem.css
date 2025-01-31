@@ -1,0 +1,15 @@
+#speech_bubble {
+  border-radius: 40px;
+  border: solid 4px #d1d1d1;
+}
+
+#speech_bubble::after {
+  border: solid 4px #d1d1d1;
+  border-radius: 0% 100% 0% 100% / 0% 100% 0% 100%;
+  content: '';
+  position: absolute;
+  bottom: -20px; /* Position at the bottom */
+  right: -20px; /* Adjust as needed for alignment */
+  width: 5rem;
+  height: 5rem;
+}
